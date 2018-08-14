@@ -1,6 +1,6 @@
 {
   "name": "whitetown-ui-toast",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Display stylyzed Toast using whitetown-ui",
   "main": "index.js",
   "scripts": {
