@@ -1,8 +1,8 @@
 # whitetown-ui-toast
 
 This is a simple function which uses
-[react-native-root-toast](https://github.com/magicismight/react-native-root-toast)
-[whitetown-ui](https://github.com/whitetown/whitetown-ui)
+* [react-native-root-toast](https://github.com/magicismight/react-native-root-toast)
+* [whitetown-ui](https://github.com/whitetown/whitetown-ui)
 
 So, it just displays the original toast and stilyze it with ``whitetown-ui``
 
