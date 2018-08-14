@@ -21,6 +21,18 @@ npm i whitetown-ui-toast --save
 yarn add whitetown-ui-toast
 ```
 
+Install dependencies for ``react-native-root-toast``:
+```shell
+yarn add redux
+yarn add react-redux
+```
+
+Install dependencies for ``whitetown-ui``:
+```shell
+yarn add react-native-vector-icons
+react-native link
+```
+
 ## Usage
 
 ```jsx
@@ -28,15 +40,21 @@ import showToast from 'whitetown-ui-toast'
 
 // display default toast:
 
-showToast('Message')
+<TouchableOpacity onPress={()=>showToast('default message')} >
+    <Text>default</Text>
+</TouchableOpacity>
 
 // display success toast using default theme:
 
-showToast('Message', 'success')
+<TouchableOpacity onPress={()=>showToast('success message', 'success')} >
+    <Text>success</Text>
+</TouchableOpacity>
 
 // display danger toast using custom theme:
 
-showToast('Message', 'danger', { theme: this.props.theme } )
+<TouchableOpacity onPress={()=>showToast('danger message', 'danger', { theme: this.props.theme })} >
+    <Text>danger</Text>
+</TouchableOpacity>
 
 ```
 
